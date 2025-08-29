@@ -6,17 +6,33 @@ import Footer from "../components/Footer";
 import StarBackground from "../components/StarBackground";
 import Overlay from "../components/Overay";
 
-const projects =[
-    {
-  title: "Disaster Tweets Classifier",
-  desc: "Developed a Natural Language Processing (NLP) pipeline to classify tweets as disaster-related or not. The project covers end-to-end processing: data cleaning (removing hashtags, emojis, and special characters), tokenization, and feature engineering with TF-IDF. Implemented baseline models like Logistic Regression for interpretability and advanced transformer-based models (BERT, RoBERTa) for state-of-the-art performance. Additional experiments included hyperparameter tuning, model ensembling, and data augmentation to boost accuracy. This project highlights strong expertise in text classification, modern deep learning architectures, and hands-on experience with real-world Kaggle datasets.",
-  tech: "Python, Scikit-learn, TensorFlow, HuggingFace Transformers (BERT, RoBERTa), NLP, Machine Learning Pipelines.",
-  link: "https://github.com/Shivang-Soni/disaster-tweets-classifier"
+const projects = [
+  {
+    title: "Stock Market RL Predictor",
+    desc: "Engineered a custom Deep Q-Network (DQN) based trading environment in Python, capable of predicting stock market movements. Designed a complete data pipeline to ingest, preprocess, and analyze historical market data. Integrated automated trading predictions via a Flask API, enabling seamless interaction between backend algorithms and frontend applications. Developed an interactive React-based frontend, allowing users to trigger training and prediction workflows while visualizing performance metrics through TensorBoard. This project highlights expertise in reinforcement learning, full-stack development, and end-to-end AI system design.",
+    tech: "Python, Reinforcement Learning, DQN, TensorBoard, Flask API, React, Node.js, Express, EJS, HTML, CSS",
+    link: "https://github.com/Shivang-Soni/StockMarketRLPredictor"
+  },
+  {
+    title: "Full Stack Auth Web App",
+    desc: "Built a secure, scalable full-stack authentication system employing Node.js, Express.js, MongoDB, and Passport.js. Implemented user registration, login, logout, and session management using MVC architecture, along with secure password hashing via bcryptjs to ensure data integrity. Designed responsive front-end interfaces using EJS, Bootstrap, Google Fonts, and custom CSS backgrounds, ensuring an intuitive and visually appealing user experience. The project demonstrates comprehensive full-stack development skills, database modeling, security best practices, and front-end design capabilities.",
+    tech: "HTML, CSS, Node.js, Express, React, MongoDB, EJS",
+    link: "https://github.com/Shivang-Soni/node-auth-app"
+  },
+  {
+    title: "Disaster Tweets Classifier",
+    desc: "Developed a Natural Language Processing (NLP) pipeline to classify tweets as disaster-related or not. The project covers end-to-end processing: data cleaning (removing hashtags, emojis, and special characters), tokenization, and feature engineering with TF-IDF. Implemented baseline models like Logistic Regression for interpretability and advanced transformer-based models (BERT, RoBERTa) for state-of-the-art performance. Additional experiments included hyperparameter tuning, model ensembling, and data augmentation to boost accuracy. This project highlights strong expertise in text classification, modern deep learning architectures, and hands-on experience with real-world Kaggle datasets.",
+    tech: "Python, Scikit-learn, TensorFlow, HuggingFace Transformers (BERT, RoBERTa), NLP, Machine Learning Pipelines",
+    link: "https://github.com/Shivang-Soni/disaster-tweets-classifier"
+  },
+  {
+  title: "Facial Emotion Detection",
+  desc: "Developed a Convolutional Neural Network (CNN)-based system using TensorFlow and OpenCV for real-time facial emotion recognition. Trained the model on a labeled dataset covering emotions like happy, sad, angry, surprised, and neutral, with optimizations for efficient execution on consumer-grade hardware. The project was recognized for innovation and practical application, being selected for the Smart India Hackathon 2021. This demonstrates expertise in computer vision, deep learning, model optimization, and real-time application development.",
+  tech: "Python, TensorFlow, OpenCV, CNN, Computer Vision, Real-time Applications, Deep Learning",
+  link: "https://www.linkedin.com/feed/update/urn:li:activity:6947245312335822848/"
 }
+];
 
-  { title: "Stock Market RL Predictor", desc: "Engineered a custom Deep Q-Network (DQN) based trading environment in Python, capable of predicting stock market movements. Designed a complete data pipeline to ingest, preprocess, and analyze historical market data. Integrated automated trading predictions via a Flask API, enabling seamless interaction between backend algorithms and frontend applications. Developed an interactive React-based frontend, allowing users to trigger training and prediction workflows while visualizing performance metrics through TensorBoard. This project highlights expertise in reinforcement learning, full-stack development, and end-to-end AI system design.", tech: "Python, Reinforcement Learning, DQN, TensorBoard, Flask API, React, Node.js, Express, EJS, HTML, CSS", link: "https://github.com/Shivang-Soni/StockMarketRLPredictor" },
-  { title: "Full Stack Auth Web App", desc: "Built a secure, scalable full-stack authentication system employing Node.js, Express.js, MongoDB, and Passport.js. Implemented user registration, login, logout, and session management using MVC architecture, along with secure password hashing via bcryptjs to ensure data integrity. Designed responsive front-end interfaces using EJS, Bootstrap, Google Fonts, and custom CSS backgrounds, ensuring an intuitive and visually appealing user experience. The project demonstrates comprehensive full-stack development skills, database modeling, security best practices, and front-end design capabilities.", tech: "HTML, CSS, Node.js, Express, React, MongoDB, EJS", link: "https://github.com/Shivang-Soni/node-auth-app" }
-]
 const skills = [
   { skill: "Python", percent: 90 },
   { skill: "C++", percent: 75 },
